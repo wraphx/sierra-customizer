@@ -67,7 +67,7 @@ console.log()
       <mesh geometry={nodes.antennas_.geometry} material={materials.wire_008110135} />
       <mesh geometry={nodes.bottom.geometry} material={materials.trim} />
       <mesh geometry={nodes.Body.geometry}>
-        <meshStandardMaterial {...materials.BaseMtl} color={overlay==1 || overlay==13 ? (snap1.base.BaseMtl!=="none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
+        <meshStandardMaterial {...materials.BaseMtl} color={overlay==1 || overlay==13 || overlay==34 ? (snap1.base.BaseMtl!=="none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
           <canvasTexture
             flipY={false}
             wrapS={1000}
